@@ -1,0 +1,243 @@
+Tabs {
+    dock: top;
+}
+#input_container {
+    layout: horizontal;
+    dock: top;
+    margin: 1;
+    height: 10;
+    width: 70;
+}
+#input_container2 {
+    layout: horizontal;
+    dock: top;
+    margin: 1;
+    height: 4;
+    width: 100;
+
+}
+#device_name {
+    max-width: 30;
+    margin: 1;
+    dock: left;
+    border: double dashed green
+}
+#device_name2 {
+    max-width: 50;
+    margin: 1;
+    dock: left;
+    border: double dashed green
+}
+#container1 {
+    layout: horizontal;
+
+    column-span: 2;
+    height: 40;
+}
+LoadingIndicator {
+    color: green;
+    max-height: 1;
+    text-style: bold;
+    padding: 5;
+}
+#load2 {
+    color: red;
+    max-height: 1;
+    text-style: bold;
+    dock: bottom;
+    padding: 5;
+}
+#dash_tab {
+    column-span: 2
+}
+#cfg_tab {
+    column-span: 2
+}
+
+#button1{
+    margin: 1 2;
+    text-style: bold;
+    dock: right;
+
+}
+#button_container {
+    layout: horizontal;
+    margin: 1;
+    height: 4;
+}
+#button_container2 {
+    layout: horizontal;
+    margin: 1;
+    height: 4;
+}
+#generate  {
+    width: 1;
+
+}
+#device_dropdown .autocomplete--highlight-match {
+    color: yellow;
+    background: magenta;
+    text-style: bold;
+    max-width: 10;
+}
+#device_dropdown .autocomplete--selection-cursor {
+    background: grey;
+    max-width: 10;
+}
+#device_dropdown {
+    max-width: 10;
+    max-height: 5;
+    /*border-left: wide magenta;*/
+    /*scrollbar-color: grey;*/
+    /*background: darkgreen;*/
+}
+QuitScreen {
+    align: center middle;
+}
+
+#dialog {
+    grid-size: 2;
+    grid-gutter: 1 2;
+    grid-rows: 1fr 3;
+    padding: 0 1;
+    width: 60;
+    height: 11;
+    border: thick $background 80%;
+    background: $surface;
+}
+#question {
+    column-span: 2;
+    height: 1fr;
+    width: 1fr;
+    content-align: center middle;
+}
+#loading {
+    visibility: hidden;
+    dock: right;
+}
+#card_container {
+    layout: horizontal;
+    dock: top;
+    margin: 1;
+    height: 3;
+}
+
+#card_name {
+    max-width: 60;
+    dock: left;
+    border: double dashed green
+}
+
+#clear_button  {
+    width: 20;
+    dock: right
+}
+
+#cfg_container {
+    layout: horizontal;
+    margin: 1;
+    height: 3;
+}
+
+#cfg {
+    max-width: 60;
+    dock: left;
+    border: double dashed green
+}
+
+#search_button  {
+    width: 20;
+    dock: right;
+/*    background: green;*/
+}
+
+#cmd_container {
+    layout: horizontal;
+    margin: 1;
+    height: 3;
+}
+
+#cmds {
+    max-width: 60;
+    dock: left;
+    border: double dashed green
+}
+
+#fetch_button  {
+    width: 20;
+    dock: right;
+/*    background: cyan;*/
+}
+#card_dropdown .autocomplete--highlight-match {
+    color: yellow;
+    background: magenta;
+    text-style: bold;
+}
+#card_dropdown .autocomplete--selection-cursor {
+    background: grey;
+}
+#card_dropdown {
+    max-width: 40;
+    max-height: 6;
+    /*border-left: wide magenta;*/
+    /*scrollbar-color: grey;*/
+    /*background: darkgreen;*/
+}
+#host_dropdown .autocomplete--highlight-match {
+    color: yellow;
+    background: magenta;
+    text-style: bold;
+}
+#host_dropdown .autocomplete--selection-cursor {
+    background: grey;
+}
+#host_dropdown {
+    max-width: 30;
+    max-height: 6;
+    /*border-left: wide magenta;*/
+    /*scrollbar-color: grey;*/
+    /*background: darkgreen;*/
+}
+#host_dropdown2 .autocomplete--highlight-match {
+    color: yellow;
+    background: magenta;
+    text-style: bold;
+}
+#host_dropdown2 .autocomplete--selection-cursor {
+    background: grey;
+}
+#host_dropdown2 {
+    max-width: 20;
+    max-height: 6;
+    /*border-left: wide magenta;*/
+    /*scrollbar-color: grey;*/
+    /*background: darkgreen;*/
+}
+#cli_dropdown .autocomplete--highlight-match {
+    color: yellow;
+    background: magenta;
+    text-style: bold;
+}
+#cli_dropdown .autocomplete--selection-cursor {
+    background: grey;
+}
+#cli_dropdown {
+    max-width: 40;
+    max-height: 6;
+    /*border-left: wide magenta;*/
+    /*scrollbar-color: grey;*/
+    /*background: darkgreen;*/
+}
+#output_container {
+    height: 50;
+    width: auto;
+}
+ListView {
+    width: 30;
+    height: auto;
+    margin: 2 2;
+    dock: right;
+}
+#default{
+layout: horizontal
+}

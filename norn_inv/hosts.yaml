@@ -1,0 +1,22 @@
+---
+MX240-1:
+  hostname: 1.1.1.1
+  port: 22
+  groups:
+    - nos
+  data:
+    site: MX240-1
+PTX5k-1:
+  hostname: 2.2.2.2
+  port: 22
+  groups:
+    - nos
+  data:
+    site: PTX5k-1
+MX480-1:
+  hostname: 3.3.3.3
+  port: 22
+  groups:
+    - nos
+  data:
+    site: MX480-1

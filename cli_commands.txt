@@ -1,0 +1,27 @@
+show system uptime
+show chassis fpc
+show chassis hardware
+show chassis alarms
+show chassis routing-engine
+show version
+show task memory detail
+show system memory
+show system core-dumps
+show chassis environment
+show chassis temperature-thresholds
+show system processes extensive
+show system alarms
+show krt state
+show interfaces terse
+show route summary
+show bgp summary
+show bgp group
+show bgp neighbor
+show isis adjacency
+show ospf neighbor
+show route protocol bgp
+show route forwarding-table
+show mpls lsp
+show rsvp session
+show configuration
+show configuration | display set

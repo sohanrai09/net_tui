@@ -1,0 +1,11 @@
+---
+inventory:
+    #plugin: SimpleInventory
+    options:
+        host_file: "norn_inv/hosts.yaml"
+        group_file: "norn_inv/groups.yaml"
+        #defaults_file: "inventory/defaults.yaml"
+runner:
+    #plugin: ProgressBar
+    options:
+        num_workers: 10

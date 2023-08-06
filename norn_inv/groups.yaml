@@ -1,0 +1,8 @@
+---
+devices:
+  username: juniper
+  password: juniper123
+nos:
+  platform: junos
+  groups:
+    - devices

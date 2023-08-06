@@ -1,0 +1,59 @@
+---
+ospf:
+  terse:
+    - show ospf overview
+    - show ospf neighbor
+    - show ospf database
+    - show ospf interface
+    - show ospf route
+  verbose:
+    - show ospf neighbor extensive
+    - show ospf database extensive
+    - show ospf interface extensive
+    - show ospf route extensive
+bgp:
+  terse:
+    - show bgp summary
+    - show bgp neighbor
+    - show bgp group
+  verbose:
+    - show bgp neighbor extensive
+mpls:
+  terse:
+    - show mpls interface
+    - show mpls lsp
+    - show mpls label usage
+    - show mpls lsp statistics
+    - show mpls cspf
+  verbose:
+    - show mpls lsp extensive
+    - show mpls interface detail
+rsvp:
+  terse:
+    - show rsvp interface
+    - show rsvp session
+    - show rsvp neighbor
+    - show rsvp statistics
+  verbose:
+    - show rsvp session extensive
+    - show rsvp neighbor detail
+    - show rsvp interface extensive
+ldp:
+  terse:
+    - show ldp session
+    - show ldp database
+    - show ldp neighbor
+    - show ldp statistics
+  verbose:
+    - show ldp session extensive
+    - show ldp database extensive
+    - show ldp neighbor extensive
+vpls:
+  terse:
+    - show vpls connections
+    - show vpls statistics
+    - show vpls mac-table
+  verbose:
+    - show vpls connections extensive
+    - show vpls statistics
+    - show vpls mac-table extensive
